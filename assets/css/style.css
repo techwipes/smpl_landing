@@ -63,8 +63,15 @@ background-size: cover;
   font-size: 24px;
   margin: 0 4px;
 }
+/* Headline*/
+.headline{
+  width: 100%;
+  margin-top: 84px;
+  
+}
 
-/* intro */
+
+/* PiperNet */
 
 .intro {
   width: 100%;
