@@ -42,7 +42,7 @@ a {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
 }
 
 .logo {
@@ -150,7 +150,7 @@ a {
   height: 115px;
   float: left;
   margin-right: 48px;
-  }
+}
 
 .ppc-content {
   font-style: normal;
@@ -158,4 +158,56 @@ a {
   font-size: 32px;
   line-height: 37px;
   padding-bottom: 40px;
+}
+
+/* team */
+
+.team {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team-title {
+  padding-bottom: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+
+.member-img {
+  width: 168px;
+  height: 168px;
+}
+
+.member-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 12px;
+  
+  color: #007765;
+}
+
+.member-prof {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  
 }
