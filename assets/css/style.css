@@ -99,13 +99,30 @@ a {
   text-align: center;
 }
 
-
-.problem-content{
-    font-style: normal;
+.problem-content {
+  font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 37px;
   padding: 12px 0;
-  
+
   color: #000000;
+}
+
+/* Hero */
+
+.hero {
+  width: 100%;
+  background-image: url(/assets/img/back2.png);
+  background-size: cover;
+}
+
+.hero-title {
+   font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  padding: 128px 163px 127px 163px;
 }
