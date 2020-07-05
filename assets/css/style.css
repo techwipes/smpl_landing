@@ -21,7 +21,7 @@ a {
   width: 100%;
   background-color: #007765;
   height: 84px;
-  position: fixed;
+  position:  sticky;
   display: flex;
   align-items: center;
   top: 0;
@@ -59,11 +59,7 @@ a {
   font-size: 24px;
   margin: 0 4px;
 }
-/* Headline*/
-.headline {
-  width: 100%;
-  margin-top: 84px;
-}
+
 
 /* PiperNet */
 
@@ -233,4 +229,11 @@ a {
   padding-top: 20px;
   color: #ffffff;
   font-size: 20px;
+}
+
+
+/* anchors */
+
+#problem, #ppc, #logo, #team{
+  padding-top: 84px;
 }
