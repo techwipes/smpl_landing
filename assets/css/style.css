@@ -118,11 +118,44 @@ a {
 }
 
 .hero-title {
-   font-style: italic;
+  font-style: italic;
   font-weight: 500;
   font-size: 48px;
   line-height: 56px;
   text-align: center;
   color: #ffffff;
   padding: 128px 163px 127px 163px;
+}
+
+/* PPC */
+
+.ppc {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.ppc-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-bottom: 26px;
+}
+
+.ppc-img {
+  width: 115px;
+  height: 115px;
+  float: left;
+  margin-right: 48px;
+  }
+
+.ppc-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  padding-bottom: 40px;
 }
