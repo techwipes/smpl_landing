@@ -42,7 +42,6 @@ a {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .logo {
@@ -200,7 +199,7 @@ a {
   font-size: 24px;
   line-height: 28px;
   margin-top: 12px;
-  
+
   color: #007765;
 }
 
@@ -209,5 +208,29 @@ a {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  padding: 48px 340px 58px 339px;
+}
+
+.footer-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
   
+
+}
+
+.footer-signatury {
+  padding-top: 20px;
+  color: #ffffff;
+  font-size: 20px;
 }
