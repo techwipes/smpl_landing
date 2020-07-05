@@ -35,27 +35,24 @@ a {
   margin: auto;
   padding-left: 55px;
   padding-right: 55px;
-  }
+}
 
-.inner-header{
+.inner-header {
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-
 }
 
-.logo{
-width: 184px;
-height: 45px;
-background-image: url(/assets/img/logo.png);
-background-size: cover;
+.logo {
+  width: 184px;
+  height: 45px;
+  background-image: url(/assets/img/logo.png);
+  background-size: cover;
 }
 
-.nav-header{
-
+.nav-header {
 }
 .nav-link {
   text-decoration: none;
@@ -64,12 +61,10 @@ background-size: cover;
   margin: 0 4px;
 }
 /* Headline*/
-.headline{
+.headline {
   width: 100%;
   margin-top: 84px;
-  
 }
-
 
 /* PiperNet */
 
@@ -83,7 +78,34 @@ background-size: cover;
   font-size: 72px;
   color: white;
   text-align: center;
-  margin:auto;
+  margin: auto;
   padding-top: 160px;
   padding-bottom: 160px;
-  }
+}
+
+/*The Problem*/
+
+.problem {
+  padding-top: 52px;
+  padding-bottom: 92px;
+}
+
+.problem-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+
+.problem-content{
+    font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  padding: 12px 0;
+  
+  color: #000000;
+}
