@@ -21,7 +21,7 @@ a {
   width: 100%;
   background-color: #007765;
   height: 84px;
-  position:  sticky;
+  position: sticky;
   display: flex;
   align-items: center;
   top: 0;
@@ -45,11 +45,9 @@ a {
   align-items: center;
 }
 
-
 .logo-img {
   width: 184px;
   height: 45px;
-
 }
 
 .nav-header {
@@ -61,7 +59,6 @@ a {
   font-size: 24px;
   margin: 0 4px;
 }
-
 
 /* PiperNet */
 
@@ -223,8 +220,6 @@ a {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
-  
-
 }
 
 .footer-signatury {
@@ -233,11 +228,10 @@ a {
   font-size: 20px;
 }
 
-
 /* anchors */
 
-#problem, #ppc, #team{
- 
+#problem,
+#ppc,
+#team {
   padding-top: 84px;
 }
-
